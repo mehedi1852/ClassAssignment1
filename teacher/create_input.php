@@ -7,13 +7,15 @@
 	<p>
 	Dept: <input type=text name=f1> <br>
 	<p>
-	Name: <input type=text name=f2> <br>
+	course: <input type=text name=f2> <br>
 	<p>
-	Nid: <input type=text name=f3> <br>
+	Name: <input type=text name=f3> <br>
 	<p>
-	Birth: <input type=date name=f4> <br>
+	Nid: <input type=text name=f4> <br>
 	<p>
-	Address: <input type=text name=f5> <br>
+	Birth: <input type=date name=f5> <br>
+	<p>
+	Address: <input type=text name=f6> <br>
 	<p>
 
 	<input type=submit value=Insert>

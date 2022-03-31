@@ -4,10 +4,6 @@
 	$f1 = $_GET["f1"];
 	$f2 = $_GET["f2"];
 	$f3 = $_GET["f3"];
-	$f4 = $_GET["f4"];
-	$f5 = $_GET["f5"];
-	$f6 = $_GET["f6"];
-
 
 
 	require_once('db_connect.php');
@@ -16,7 +12,7 @@
 
 		or die("Can not connect");
 
-	mysqli_query( $connect, "INSERT INTO teacher VALUES ( '', '$f1', '$f2', '$f3', '$f4', '$f5', '$f6')" )
+	mysqli_query( $connect, "INSERT INTO payment VALUES ( '', '$f1', '$f2', '$f3')" )
 
 		or die("Can not execute query");
 
