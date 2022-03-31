@@ -1,4 +1,4 @@
-<h1>Create Student Record</h1>
+<h1>Create Course Record</h1>
 
 
 <form method=get action=create_result.php>

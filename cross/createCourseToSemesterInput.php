@@ -1,4 +1,4 @@
-<h1> Add Course To Teacher</h1>
+<h1> Create Course to Semester</h1>
 
 
 <form method=get action=createCourseToSemesterResult.php>
