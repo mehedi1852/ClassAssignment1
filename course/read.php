@@ -4,7 +4,7 @@
 		or die("Can not connect");
 
 
-	$results = mysqli_query( $connect, "SELECT * FROM student" )
+	$results = mysqli_query( $connect, "SELECT * FROM course" )
 		or die("Can not execute query");
 
 	echo "<table border> \n";
@@ -14,9 +14,9 @@
 		extract( $rows );
 		echo "<tr>";
 		echo "<td> $dept </td>";
-		echo "<td> $batch </td>";
+		echo "<td> $semester </td>";
 		echo "<td> <a href = 'delete.php?id=$id'> Delete </a> </td>";
-		echo "<td> <a href = 'update_input.php?id=$id&dept=$dept&batch=$batch&name=$name&nid=$nid&birth=$birth&address=$address'> Update </a> </td>";
+		echo "<td> <a href = 'update_input.php?id=$id&dept=$dept&semester=$semester&title=$title&credit=$credit&syllabus=$syllabus'> Update </a> </td>";
 		echo "</tr> \n";
 	}
 

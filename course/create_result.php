@@ -6,7 +6,6 @@
 	$f3 = $_GET["f3"];
 	$f4 = $_GET["f4"];
 	$f5 = $_GET["f5"];
-	$f6 = $_GET["f6"];
 
 
 
@@ -16,7 +15,7 @@
 
 		or die("Can not connect");
 
-	mysqli_query( $connect, "INSERT INTO student VALUES ( '', '$f1', '$f2', '$f3', '$f4', '$f5', '$f6' )" )
+	mysqli_query( $connect, "INSERT INTO course VALUES ( '', '$f1', '$f2', '$f3', '$f4', '$f5' )" )
 
 		or die("Can not execute query");
 

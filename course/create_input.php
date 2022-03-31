@@ -7,16 +7,13 @@
 	<p>
 	Dept: <input type=text name=f1> <br>
 	<p>
-	Batch: <input type=text name=f2> <br>
+	semester: <input type=text name=f2> <br>
 	<p>
-	Name: <input type=text name=f3> <br>
+	Title: <input type=text name=f3> <br>
 	<p>
-	Nid: <input type=text name=f4> <br>
+	Credit: <input type=text name=f4> <br>
 	<p>
-	Birth: <input type=date name=f5> <br>
-	<p>
-	Address: <input type=text name=f6> <br>
-	<p>
+	Syllabus: <input type=text name=f5> <br>
 
 	<input type=submit value=Insert>
 
